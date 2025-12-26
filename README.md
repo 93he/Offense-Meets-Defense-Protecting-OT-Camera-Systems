@@ -40,6 +40,7 @@ To put this at the top of all pages to guarantee that if the victim enters any p
 ________________________________________
 Now I have <IP> of the victim, that means I have the first step in the company to have access in camera monitor. Need to use a scanner:
 nmap -Pn -f -T1 -p 21,22,80,8080 <IP>
+
 <img width="356" height="42" alt="nmap" src="https://github.com/user-attachments/assets/956d85aa-55b4-4c5c-886b-2571a0ad42a1" />
 
 Now I have port 80 open.
