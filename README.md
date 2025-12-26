@@ -1,6 +1,8 @@
 Offense Meets Defense: OT Cybersecurity Strategies vs IT Adversary-in-the-Loop
+
  🎓 University Cybersecurity Project – Educational Only
-**⚠️ Disclaimer:** This project is for educational purposes only. It must not be used for real‑world unauthorized access.
+ 
+⚠️ Disclaimer:This project is for educational purposes only. It must not be used for real‑world unauthorized access.
 
 ---
 
