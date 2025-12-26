@@ -119,6 +119,7 @@ Make some OSINT about camera manufacturer to know design, reset the password, to
 How to know details from IP in VLAN to know email of employee?
 
 dig -x <IP>
+
 New technique used:
 If a box gives you an internal IP and reverse DNS returns example pc.corp.local, that’s usually a hint to guess usernames for login or email format, e.g., <name>@corp.local.
 
