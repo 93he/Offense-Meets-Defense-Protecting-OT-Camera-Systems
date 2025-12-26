@@ -37,14 +37,15 @@ ________________________________________
 Now, waiting for the click and booking a free session in the website. A PHP code is used PHP trick (PHP gets the visitor's IP address and saves all IPs in a file called visitors.txt). After one click on the website, it returns the victim <IP> because the website runs on (Apache HTTP Server).
 The code file name in web (log.php): The trick:
 
-<?php
-$ip = $_SERVER['REMOTE_ADDR'];
-file_put_contents("visitors.txt", $ip . "\n", FILE_APPEND);
-?>
+<img width="475" height="96" alt="image" src="https://github.com/user-attachments/assets/8b0ce5e0-9978-4946-984b-48669b2cf59f" />
+
+
 To put this in all pages, a new file in the project is made called (header.php)
 
+
 It has inside:
-<?php include('log.php'); ?>
+
+<img width="250" height="26" alt="image" src="https://github.com/user-attachments/assets/f7357c40-32c2-4f59-8327-12f387e86733" />
 
 To put this at the top of all pages to guarantee that if the victim enters any page, his IP address will be recorded.
 ________________________________________
