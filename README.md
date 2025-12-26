@@ -8,12 +8,14 @@ In the first thing, we need information gathering about the target:
 First, need the <IP> of the victim to scan and see all ports that are open to attack the port to have access in the network. Need to do a phishing email:
 
 Subject: Discover How Solution_code Can Transform Your Business – Free 30 Min Consultation
+
 Dear [Client's Name],
 I hope this message finds you well.
 My name is [Your Name], and I represent Solution_Code, a company dedicated to delivering cutting edge technology solutions, software, and tools designed to enhance efficiency, streamline operations, and drive business growth.
 At Solution_Code, we offer a wide range of services, multiple packages, and diverse content, all tailored to meet the unique needs of businesses like yours.
 To explore our solutions and discover which packages suit your business best, feel free to visit our website: [https://SolutionCodeDev.com]
 We would like to invite you to a free 30 minute consultation, where we will:
+
 • Demonstrate how our solutions and software can simplify your daily operations.
 • Explore innovative ways to increase productivity and reduce costs.
 • Guide you through the variety of packages and services we offer.
@@ -25,9 +27,11 @@ We understand that every business is unique, which is why this session is fully 
 To schedule your consultation at a convenient time, please click here [https://SolutionCodeDev.com/consultation.php] or simply reply to this email.
 We look forward to the opportunity to partner with you and help take your business to the next level.
 Warm regards,
+
 [Your Name]
 [Your Position]
 Solution_Code
+
 [0000000000] | [SolutionDev@gmail.com] | [https://SolutionCodeDev.com]
 ________________________________________
 Now, waiting for the click and booking a free session in the website. A PHP code is used PHP trick (PHP gets the visitor's IP address and saves all IPs in a file called visitors.txt). After one click on the website, it returns the victim <IP> because the website runs on (Apache HTTP Server).
@@ -126,12 +130,14 @@ If a box gives you an internal IP and reverse DNS returns example pc.corp.local,
 Send him email:
 
 Subject: Important Security Notice – Please Update Your Password
+
 Dear [Client's Name],
 We hope this message finds you well.
 At CT Camera Company, your account security is our top priority. To ensure the safety of your information, we are reminding all our valued clients to update their login password for enhanced account protection.
 Please click the link below to securely reset your password:
 [https://CTCameraCompany/reset password]
 Important tips for a strong password:
+
 • Use at least 8 characters including uppercase, lowercase, numbers, and symbols.
 • Avoid using easily guessable information (like birthdays or names).
 • Do not reuse passwords from other accounts.
@@ -140,6 +146,7 @@ Warm regards,
 [Your Name]
 [Your Position]
 CT Camera Company
+
 [0000000000] | [Email] | [https://CTCameraCompany]
 
 
