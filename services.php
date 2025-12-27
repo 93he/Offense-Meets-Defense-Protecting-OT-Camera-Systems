@@ -310,7 +310,7 @@
                 <div class="footer-column">
                     <h4>Contact Information</h4>
                     <p><i class="fas fa-map-marker-alt"></i> Riyadh, Saudi Arabia</p>
-                    <p><i class="fas fa-phone"></i> +966 11 123 4567</p>
+                    <p><i class="fas fa-phone"></i> +9xx 00 000 0000</p>
                     <p><i class="fas fa-envelope"></i> info@software-advanced.com</p>
                 </div>
             </div>
@@ -323,4 +323,5 @@
 
     <script src="js/main.js"></script>
 </body>
+
 </html>
