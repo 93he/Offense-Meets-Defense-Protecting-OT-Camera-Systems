@@ -1,6 +1,5 @@
 // js/main.js
 
-// تفعيل القائمة المتنقلة
 document.addEventListener('DOMContentLoaded', function() {
     const menuBtn = document.getElementById('menuBtn');
     const mainNav = document.getElementById('mainNav');
@@ -10,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
             mainNav.classList.toggle('active');
         });
         
-        // إغلاق القائمة عند النقر على رابط
         document.querySelectorAll('#mainNav a').forEach(link => {
             link.addEventListener('click', function() {
                 mainNav.classList.remove('active');
@@ -18,12 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // تأثير التمرير السلس للروابط الداخلية
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             const href = this.getAttribute('href');
             
-            // التحقق إذا كان الرابط داخلياً (يبدأ بـ #)
             if (href.startsWith('#') && href.length > 1) {
                 e.preventDefault();
                 
@@ -40,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // إضافة تأثير عند التمرير للشريط العلوي
     window.addEventListener('scroll', function() {
         const header = document.querySelector('header');
         if (window.scrollY > 100) {
@@ -50,7 +45,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // تفعيل النموذج إذا كان موجوداً في الصفحة
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
