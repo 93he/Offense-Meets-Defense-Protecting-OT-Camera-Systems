@@ -3,10 +3,13 @@ Offense Meets Defense: OT Cybersecurity Strategies vs IT Adversary-in-the-Loop
 All name and number is Fake just to explain how that happend , I am not responsible for any illegal or unethical use of the information contained within it.
 
 ⚖️ This document is for educational purposes only. The author is not responsible for any illegal or unethical misuse of the information provided , I am not responsible for any illegal or unethical use of the information contained within it.
+
 Description:
+
 This project demonstrates how an IT based adversary may attempt to infiltrate an Operational Technology (OT) environment and how cybersecurity controls can defend against it. The scenario begins with information gathering and OSINT, where an attacker collects publicly exposed company data and targets employees through phishing — illustrating the importance of email security awareness. Once an attacker gains initial access, they could map network assets and identify vulnerable IoT or camera monitoring systems using passive reconnaissance. OT devices often run BusyBox based firmware, making them high risk when unpatched. Defensively, the project emphasizes network segmentation, VLAN hardening, logging, intrusion detection, and staff awareness training. The final objective is to show how combining offensive simulation and defensive strategies strengthens OT security.
 ________________________________________
 In the first thing, we need information gathering about the target:
+
 First, need the <IP> of the victim to scan and see all ports that are open to attack the port to have access in the network. Need to do a phishing email:
 
 Subject: Discover How Solution_code Can Transform Your Business – Free 30 Min Consultation
