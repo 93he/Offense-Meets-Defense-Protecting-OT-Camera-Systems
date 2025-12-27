@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             
-            alert(`شكراً ${name}، تم استلام رسالتك بنجاح! سوف نتصل بك على ${email} في أقرب وقت.`);
+            alert(`Thank you ${name}, your message has been received successfully! We will contact you at ${email} as soon as possible.`);
             
             this.reset();
         });
