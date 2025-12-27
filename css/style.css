@@ -1,6 +1,6 @@
 /* css/style.css */
 
-/* التهيئات العامة */
+
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@ body {
     padding: 0 15px;
 }
 
-/* تنسيقات الشريط العلوي */
+
 header {
     background-color: white;
     box-shadow: var(--shadow);
@@ -108,7 +108,7 @@ nav ul li a.active {
     padding: 5px;
 }
 
-/* تنسيقات الفوتر */
+
 footer {
     background-color: var(--dark-color);
     color: white;
@@ -192,7 +192,6 @@ footer {
     font-size: 14px;
 }
 
-/* تنسيقات الأزرار العامة */
 .btn {
     display: inline-block;
     background-color: var(--accent-color);
@@ -221,7 +220,7 @@ footer {
     background-color: #2980b9;
 }
 
-/* تنسيقات العناوين العامة */
+
 .section-title {
     text-align: center;
     margin-bottom: 50px;
@@ -253,7 +252,7 @@ footer {
     font-size: 18px;
 }
 
-/* تنسيقات للجوال */
+
 @media (max-width: 992px) {
     .mobile-menu-btn {
         display: block;
