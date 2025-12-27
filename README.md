@@ -1,6 +1,7 @@
 Offense Meets Defense: OT Cybersecurity Strategies vs IT Adversary-in-the-Loop
 
-All name and number is Fake just to explain how that happend , I am not responsible for any illegal or unethical use of the information contained within it.
+All name and number is Fake just to explain how that happened , I am not responsible for any illegal or unethical use of the information contained within it.
+
 
 ⚖️ This document is for educational purposes only. The author is not responsible for any illegal or unethical misuse of the information provided , I am not responsible for any illegal or unethical use of the information contained within it.
 
