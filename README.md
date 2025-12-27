@@ -33,6 +33,16 @@ Warm regards,
 Solution_Code
 
 [0000000000] | [SolutionDev@gmail.com] | [https://SolutionCodeDev.com]
+
+Pic of Website phishing Website :
+
+<img width="1899" height="996" alt="rev_web" src="https://github.com/user-attachments/assets/0fd7d0f4-5942-4891-a8bd-46d4c35d8232" />
+
+<img width="1904" height="923" alt="Offers" src="https://github.com/user-attachments/assets/aada826c-8638-41f8-9dae-dbeb92fb131c" />
+
+
+<img width="1894" height="990" alt="2_web" src="https://github.com/user-attachments/assets/e02c33fb-ca3a-475f-8794-c2ad254fccf5" />
+
 ________________________________________
 Now, waiting for the click and booking a free session in the website. A PHP code is used PHP trick (PHP gets the visitor's IP address and saves all IPs in a file called visitors.txt). After one click on the website, it returns the victim <IP> because the website runs on (Apache HTTP Server).
 The code file name in web (log.php): The trick:
@@ -48,8 +58,19 @@ It has inside:
 <img width="250" height="26" alt="image" src="https://github.com/user-attachments/assets/f7357c40-32c2-4f59-8327-12f387e86733" />
 
 To put this at the top of all pages to guarantee that if the victim enters any page, his IP address will be recorded.
+
+after click in web genrat file visitors.txt :
+
+
+<img width="141" height="149" alt="vistior_ip" src="https://github.com/user-attachments/assets/df40c948-2782-4056-9711-d5f2fe4d4f8e" />
+
 ________________________________________
 Now I have <IP> of the victim, that means I have the first step in the company to have access in camera monitor. Need to use a scanner:
+
+First after Know IP address need Imagine The Network of company :
+
+<img width="1552" height="657" alt="imagin_net" src="https://github.com/user-attachments/assets/a4f2313b-6ff1-48c9-89d7-955af91ca830" />
+
 
 nmap -Pn -f -T1 -p 21,22,80,8080 <IP>
 
