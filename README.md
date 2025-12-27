@@ -150,6 +150,10 @@ CT Camera Company
 
 [0000000000] | [Email] | [https://CTCameraCompany]
 
+Pic of Website reset :
+
+<img width="664" height="992" alt="image" src="https://github.com/user-attachments/assets/fa568e90-6d53-4f1f-b737-16c0932637fe" />
+
 
 After logging in through the phishing based password reset and accessing the internal web interface, the attacker proceeds to the real login page and changes the credentials quickly to avoid raising suspicion or alerting monitoring staff. 
 
