@@ -163,7 +163,7 @@ Dear [Client's Name],
 We hope this message finds you well.
 At CT Camera Company, your account security is our top priority. To ensure the safety of your information, we are reminding all our valued clients to update their login password for enhanced account protection.
 Please click the link below to securely reset your password:
-[https://CTCameraCompany/reset password]
+[https://xxCameraxxxxx/reset password]
 Important tips for a strong password:
 
 • Use at least 8 characters including uppercase, lowercase, numbers, and symbols.
@@ -175,7 +175,7 @@ Warm regards,
 [Your Position]
 CT Camera Company
 
-[0000000000] | [Email] | [https://CTCameraCompany]
+[0000000000] | [Email] | [https://xxCameraxxxxx]
 
 Pic of Website reset :
 
