@@ -30,7 +30,7 @@ Special Offer: Register for the consultation now and receive 30% off on all pack
 Visit the link to see all packages’ solutions:
 [https://SolxxxxxxDev.com/offers.php]
 We understand that every business is unique, which is why this session is fully customized to your requirements.
-To schedule your consultation at a convenient time, please click here [https://SolutionCodeDev.com/consultation.php] or simply reply to this email.
+To schedule your consultation at a convenient time, please click here [https://SolxxxxxxDev.com/consultation.php] or simply reply to this email.
 We look forward to the opportunity to partner with you and help take your business to the next level.
 Warm regards,
 
