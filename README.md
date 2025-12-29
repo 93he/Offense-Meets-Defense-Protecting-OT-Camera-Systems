@@ -19,7 +19,7 @@ Dear [Client's Name],
 I hope this message finds you well.
 My name is [Your Name], and I represent Solution_Code, a company dedicated to delivering cutting edge technology solutions, software, and tools designed to enhance efficiency, streamline operations, and drive business growth.
 At Solution_Code, we offer a wide range of services, multiple packages, and diverse content, all tailored to meet the unique needs of businesses like yours.
-To explore our solutions and discover which packages suit your business best, feel free to visit our website: [https://SolutionCodeDev.com]
+To explore our solutions and discover which packages suit your business best, feel free to visit our website: [https://SolxxxxxxDev.com]
 We would like to invite you to a free 30 minute consultation, where we will:
 
 • Demonstrate how our solutions and software can simplify your daily operations.
@@ -28,7 +28,7 @@ We would like to invite you to a free 30 minute consultation, where we will:
 • Provide a tailored experience, showing firsthand the value our tools can bring to your organization.
 Special Offer: Register for the consultation now and receive 30% off on all packages and solutions!
 Visit the link to see all packages’ solutions:
-[https://SolutionCodeDev.com/offers.php]
+[https://SolxxxxxxDev.com/offers.php]
 We understand that every business is unique, which is why this session is fully customized to your requirements.
 To schedule your consultation at a convenient time, please click here [https://SolutionCodeDev.com/consultation.php] or simply reply to this email.
 We look forward to the opportunity to partner with you and help take your business to the next level.
@@ -38,7 +38,7 @@ Warm regards,
 [Your Position]
 Solution_Code
 
-[0000000000] | [SolutionDev@gmail.com] | [https://SolutionCodeDev.com]
+[0000000000] | [Solxxxxxx@gmail.com] | [https://[SolxxxxxxDev.com]
 
 Pic of Website phishing Website :
 
