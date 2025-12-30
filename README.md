@@ -68,7 +68,7 @@ To put this at the top of all pages to guarantee that if the victim enters any p
 after click in web genrat file visitors.txt :
 
 
-<img width="141" height="149" alt="vistior_ip" src="https://github.com/user-attachments/assets/df40c948-2782-4056-9711-d5f2fe4d4f8e" />
+
 
 ________________________________________
 Now I have <IP> of the victim, that means I have the first step in the company to have access in camera monitor. Need to use a scanner:
