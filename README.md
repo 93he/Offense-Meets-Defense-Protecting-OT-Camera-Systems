@@ -124,7 +124,9 @@ ip a
 Now know the name of network card that works in internal network in company.
 Second step:
 
-ping -c1 <IP> (This step to make sure all IP in network make ARP and flow to capture them)
+ping -c1 <IP> 
+(This step to make sure all IP in network make ARP and flow to capture them)
+
 netdiscover -p -i eth0
 
 Now have all IP in company, and notes have VLAN in Network.
