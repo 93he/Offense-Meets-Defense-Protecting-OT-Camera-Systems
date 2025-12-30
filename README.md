@@ -61,7 +61,7 @@ To put this in all pages, a new file in the project is made called (header.php)
 
 It has inside:
 
-<img width="250" height="26" alt="image" src="https://github.com/user-attachments/assets/f7357c40-32c2-4f59-8327-12f387e86733" />
+
 
 To put this at the top of all pages to guarantee that if the victim enters any page, his IP address will be recorded.
 
